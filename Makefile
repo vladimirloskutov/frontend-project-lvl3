@@ -2,7 +2,7 @@ install:
 	npm ci
 
 lint:
-		npx eslint ./src
+		npx eslint .
 
 develop:
 	npx webpack
